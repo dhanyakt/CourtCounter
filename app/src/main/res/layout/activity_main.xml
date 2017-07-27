@@ -1,8 +1,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingLeft="16dp"
-    android:paddingRight="16dp"
     android:orientation="vertical">
 
 
@@ -10,25 +8,35 @@
             "child views" or "children" of the linear layout -->
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Team A" />
+        android:text="Team A"
+        android:gravity="center_horizontal"
+        android:padding="4dp"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="0"/>
+        android:text="0"
+        android:gravity="center_horizontal"
+        android:padding="4dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+3 Points"/>
+        android:text="+3 Points"
+        android:gravity="center_horizontal"
+        android:layout_margin="4dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="+2 Points"/>
+        android:text="+2 Points"
+        android:gravity="center_horizontal"
+        android:layout_margin="4dp"/>
     <Button
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Free Throw"/>
+        android:text="Free Throw"
+        android:gravity="center_horizontal"
+        android:layout_margin="4dp"/>
 
 
 </LinearLayout>
